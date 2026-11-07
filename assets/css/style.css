@@ -125,7 +125,7 @@ section { padding: 96px 0; }
 .search-bar .field { background: rgba(10, 34, 48, .88); padding: 16px 20px; }
 .search-bar .field label { display: block; font-family: var(--mono); font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
 .search-bar .field select, .search-bar .field input { width: 100%; background: transparent; border: none; color: var(--mist); font-size: 16px; padding: 0; }
-.search-bar .field select option { color: var(--ink); }
+.search-bar .field select option { color: var(--mist); background-color: var(--teal); }
 .search-bar button { border-radius: 0; min-height: 100%; }
 @media (max-width: 820px) { .search-bar { grid-template-columns: 1fr 1fr; } .search-bar button { grid-column: 1 / -1; } }
 
@@ -195,7 +195,7 @@ section { padding: 96px 0; }
   background: var(--teal); border: 1px solid var(--hairline-strong); color: var(--mist);
   border-radius: 2px; padding: 11px 12px; min-width: 150px; font-size: 14px;
 }
-.filter select option { color: var(--ink); }
+.filter select option { color: var(--mist); background-color: var(--teal); }
 .filter .search-input { min-width: 210px; }
 .result-count { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-left: auto; align-self: center; }
 .empty-state { display: none; border: 1px dashed var(--hairline-strong); border-radius: 2px; padding: 64px 32px; text-align: center; }
@@ -287,7 +287,7 @@ section { padding: 96px 0; }
   border-radius: 2px; padding: 13px 14px; font-size: 15px;
 }
 .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--brass); outline: none; }
-.field select option { color: var(--ink); }
+.field select option { color: var(--mist); background-color: var(--teal); }
 .field textarea { min-height: 120px; resize: vertical; }
 .field .error { display: none; color: #E8A0A0; font-size: 13px; margin-top: 6px; }
 .field.invalid input, .field.invalid select, .field.invalid textarea { border-color: #C96A6A; }
