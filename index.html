@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monaco. Yachts. Discreetly done. — SuperYachtsMonaco</title>
+<meta name="description" content="SuperYachtsMonaco — boutique superyacht brokerage in Port Hercule, Monaco, since 2008. Buy, sell, charter and build.">
+<meta property="og:title" content="Monaco. Yachts. Discreetly done. — SuperYachtsMonaco">
+<meta property="og:description" content="SuperYachtsMonaco — boutique superyacht brokerage in Port Hercule, Monaco, since 2008. Buy, sell, charter and build.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">Super<em>Yachts</em>Monaco<small>EST. 2008 · PORT HERCULE</small></a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation"><a href="index.html" class="active">Home</a><a href="yachts-for-sale.html" class="">Yachts for Sale</a><a href="yachts-for-charter.html" class="">Yachts for Charter</a><a href="buy-a-yacht.html" class="">Buy</a><a href="sell-a-yacht.html" class="">Sell</a><a href="new-builds.html" class="">New Builds</a><a href="contact.html" class="">Contact</a></nav>
+    <a class="btn btn-brass nav-cta" href="charter-enquiry.html">Charter Enquiry</a>
+  </div>
+</header>
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-media"><img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=2000&q=75&auto=format&fit=crop" alt="A large white superyacht at anchor in calm Mediterranean water at dusk"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow reveal">Monaco · Port Hercule · Est. 2008</p>
+    <h1 class="reveal d1">Monaco. Yachts.<br><em>Discreetly done.</em></h1>
+    <p class="lede reveal d2">A boutique brokerage in Port Hercule since 2008. Buy, sell, charter and build — with the yachts in front of you, not behind an enquiry wall.</p>
+    <div class="hero-ctas reveal d3">
+      <a class="btn btn-brass" href="yachts-for-sale.html">Browse the Fleet</a>
+      <a class="btn btn-outline" href="charter-enquiry.html">Charter Enquiry</a>
+    </div>
+    <form class="search-bar reveal d4" id="hero-search" aria-label="Charter search">
+      <div class="field"><label for="hero-dest">Destination</label>
+        <select id="hero-dest"><option value="">Anywhere</option><option>Mediterranean</option><option>Caribbean</option><option>French Riviera</option><option>Greece</option><option>Croatia</option><option>Bahamas</option></select></div>
+      <div class="field"><label for="hero-dates">Dates</label>
+        <select id="hero-dates"><option>High Summer 2026</option><option>Spring 2026</option><option>Autumn 2026</option><option>Winter 2026–27</option></select></div>
+      <div class="field"><label for="hero-guests">Guests</label>
+        <select id="hero-guests"><option value="">Any</option><option value="2">2 guests</option><option value="4">4 guests</option><option value="6">6 guests</option><option value="8">8 guests</option><option value="10">10 guests</option><option value="12">12 guests</option></select></div>
+      <button class="btn btn-brass" type="submit">Search the Fleet</button>
+    </form>
+  </div>
+</section>
+
+<!-- THE FIX, STATED PLAINLY -->
+<section><div class="wrap">
+  <div class="section-head">
+    <div><p class="eyebrow reveal">The fix, stated plainly</p>
+    <h2 class="reveal">See the yachts. Search them. <em>Ask about one.</em></h2></div>
+    <p class="reveal">This site exists to do what a brokerage site should: show the fleet, let you filter it, and put you one step from the broker.</p>
+  </div>
+  <div class="steps">
+    <div class="step reveal"><span class="ghost">01</span><p class="label">Step 01</p><h3>Browse the fleet</h3><p>Every yacht on one page — length, guests, cabins, builder, year, and price or price on application. Filter it yourself.</p></div>
+    <div class="step reveal d1"><span class="ghost">02</span><p class="label">Step 02</p><h3>Shortlist in confidence</h3><p>Nothing you look at is tracked, shared or sold. A shortlist is yours until you choose to send it.</p></div>
+    <div class="step reveal d2"><span class="ghost">03</span><p class="label">Step 03</p><h3>Enquire with Jim</h3><p>One email, one broker. Jim Evans, founder and principal broker, answers every enquiry personally.</p></div>
+  </div>
+</div></section>
+
+<!-- FEATURED FLEET -->
+<section class="light"><div class="wrap">
+  <div class="section-head">
+    <div><p class="eyebrow reveal">Featured fleet</p>
+    <h2 class="reveal">Yachts for sale, <em>in the open.</em></h2></div>
+    <a class="btn btn-dark reveal" href="yachts-for-sale.html">View all yachts for sale</a>
+  </div>
+  <div class="demo-note" style="margin-bottom:28px;border-color:rgba(10,34,48,.35);background:rgba(10,34,48,.06);color:#0A2230"><strong style="color:#8a6d2f">Demo Fleet</strong><span>Placeholder yachts with illustrative figures — not real listings. They show how the fleet browser works until the broker supplies real Central Agency yachts.</span></div>
+  <div class="fleet-grid" id="fleet-grid" data-mode="sale"></div>
+  <noscript><p style="margin:24px 0">The fleet browser needs JavaScript to filter and sort. Without it, email <a href="mailto:contact@superyachtsmonaco.com" style="color:var(--brass)">contact@superyachtsmonaco.com</a> and the broker will send you the current list.</p></noscript>
+  <p style="margin-top:24px"><a class="btn btn-ghost" href="yachts-for-sale.html" style="color:#8a6d2f">View all yachts for sale</a></p>
+</div></section>
+
+<!-- SERVICES BAND -->
+<section><div class="wrap">
+  <div class="section-head">
+    <div><p class="eyebrow reveal">What we do</p>
+    <h2 class="reveal">Four ways in. <em>One broker.</em></h2></div>
+  </div>
+</div>
+<div class="services">
+  <div class="service-row">
+    <div class="photo"><img src="https://images.unsplash.com/photo-1520255870062-bd79d3865de7?w=1400&q=70&auto=format&fit=crop" alt="A motor yacht cutting across the water at sunset" loading="lazy"></div>
+    <div class="copy"><p class="label">01 · Charter</p><h3>Charter, <em>without compromise.</em></h3><p>Pick a destination and a week. We shortlist yachts that fit the brief, confirm what is included before anything is signed, and stay on the line until you step aboard.</p><a class="btn btn-outline" href="yachts-for-charter.html">Yachts for Charter</a></div>
+  </div>
+  <div class="service-row">
+    <div class="photo"><img src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=1400&q=70&auto=format&fit=crop" alt="A black-hulled superyacht underway" loading="lazy"></div>
+    <div class="copy"><p class="label">02 · Buy</p><h3>Buy, <em>with leverage.</em></h3><p>An advisor, not a salesperson. On-market and off-market search, survey and sea trial, negotiation and completion — handled by one broker who has done it before.</p><a class="btn btn-outline" href="buy-a-yacht.html">Buy a Yacht</a></div>
+  </div>
+  <div class="service-row">
+    <div class="photo"><img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=1400&q=70&auto=format&fit=crop" alt="A white superyacht at anchor in calm water" loading="lazy"></div>
+    <div class="copy"><p class="label">03 · Sell</p><h3>Sell, <em>with discretion.</em></h3><p>Valuation grounded in evidence, pricing set with you, and buyers approached directly — including discreetly, off-market, when that is the right call.</p><a class="btn btn-outline" href="sell-a-yacht.html">Sell a Yacht</a></div>
+  </div>
+  <div class="service-row">
+    <div class="photo"><img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1400&q=70&auto=format&fit=crop" alt="A sailing yacht under a night sky" loading="lazy"></div>
+    <div class="copy"><p class="label">04 · Build</p><h3>Build, <em>from a blank page.</em></h3><p>Brief, design and shipyard selection, build supervision, delivery. A new build is a long conversation — it starts with the brief, not the brochure.</p><a class="btn btn-outline" href="new-builds.html">New Builds</a></div>
+  </div>
+</div></section>
+
+<!-- OFF-MARKET PANEL -->
+<section><div class="wrap">
+  <div class="offmarket reveal">
+    <p class="eyebrow" style="justify-content:center">Off-Market</p>
+    <h2>Not every yacht is listed. Some of the finest never reach the open market.</h2>
+    <p>Off-market yachts are shown privately, to named buyers, on a brief — never published, never photographed for a listing. If you know what you want, ask for a private shortlist.</p>
+    <a class="btn btn-brass" href="off-market.html">Request a Private Shortlist</a>
+  </div>
+</div></section>
+
+<!-- THE BROKER -->
+<section class="light"><div class="wrap broker">
+  <div class="portrait-ph">
+    <div class="mono-mark">JE</div>
+    <p>Portrait to be supplied<br>by the broker</p>
+  </div>
+  <div>
+    <p class="eyebrow reveal">The broker</p>
+    <h2 class="reveal">Jim Evans — <em>Founder &amp; Principal Broker</em></h2>
+    <p class="role reveal">SuperYachtsMonaco · Monaco</p>
+    <p class="reveal">SuperYachtsMonaco is a boutique house, not a listings warehouse. One broker, one office in Port Hercule, and a small number of yachts represented properly — as Central Agent — rather than hundreds listed at arm's length.</p>
+    <p class="reveal">That is the whole model: know fewer yachts, know them well, and answer for them personally.</p>
+    <a class="btn btn-dark reveal" href="contact.html">Speak to Jim</a>
+  </div>
+</div></section>
+
+<!-- CHARTER, EXPLAINED -->
+<section><div class="wrap">
+  <div class="section-head">
+    <div><p class="eyebrow reveal">First time chartering?</p>
+    <h2 class="reveal">Chartering, <em>explained.</em></h2></div>
+    <p class="reveal">No jargon, no small print surprises. The structure, plainly — the figures are agreed with your broker before you sign, never assumed.</p>
+  </div>
+  <div class="explain-grid">
+    <div class="explain-cell reveal"><p class="label">01 · The rate</p><h3>What the weekly rate covers</h3><p>The yacht, her crew and her insurance. That is the rate. Everything else is accounted for separately, and shown to you before signing.</p></div>
+    <div class="explain-cell reveal d1"><p class="label">02 · The APA</p><h3>Fuel, food, dockage</h3><p>Running costs are paid from an Advance Provisioning Allowance (APA) held for the charter. The amount is agreed in advance, and unspent funds are returned.</p></div>
+    <div class="explain-cell reveal d2"><p class="label">03 · Taxes &amp; crew</p><h3>VAT and gratuity</h3><p>VAT depends on where the yacht cruises and where the charter begins — your broker confirms the position before signing. Crew gratuity is at your discretion.</p></div>
+  </div>
+  <p style="margin-top:28px"><a class="btn btn-ghost" href="charter-enquiry.html">Start a charter enquiry</a></p>
+</div></section>
+
+<!-- FAQ TEASER -->
+<section class="light"><div class="wrap">
+  <div class="section-head">
+    <div><p class="eyebrow reveal">Questions, answered plainly</p>
+    <h2 class="reveal">Before you ask, <em>read this.</em></h2></div>
+    <a class="btn btn-dark" href="faq.html">Full FAQ</a>
+  </div>
+  <div class="faq-list">
+    <details><summary><h3>How much does it cost to charter a superyacht?</h3><span class="plus">+</span></summary><div class="answer"><p>It depends on the yacht, the season and the destination. Weekly rates are shown on each charter yacht, or marked "Please enquire" where the broker confirms the rate for your dates. On top of the rate, running costs are paid from an APA agreed in advance, and VAT depends on the cruising area. Your broker confirms every figure before you sign.</p></div></details>
+    <details><summary><h3>What does "Central Agent" mean?</h3><span class="plus">+</span></summary><div class="answer"><p>The Central Agent is the broker appointed by the owner to represent a yacht — the one who knows her history, her condition and her real price. A boutique house represents a small number of yachts this way, rather than listing hundreds it has never seen.</p></div></details>
+    <details><summary><h3>Can I buy a yacht that is not publicly listed?</h3><span class="plus">+</span></summary><div class="answer"><p>Yes. Many of the finest yachts change hands without a public listing. Share your brief and we build a private shortlist from on-market and off-market yachts, with no names or photographs shown publicly.</p></div></details>
+  </div>
+</div></section>
+<section class="final-cta"><div class="wrap">
+  <p class="eyebrow reveal" style="justify-content:center">SuperYachtsMonaco · Monaco</p>
+  <h2 class="reveal">Begin with a conversation.</h2>
+  <p class="reveal">Tell us what you are looking for — a yacht to buy, to sell, to charter, or to build. Jim Evans replies personally.</p>
+  <a class="btn btn-brass reveal" href="contact.html">Contact Jim Evans</a>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Super<em>Yachts</em>Monaco<small>EST. 2008 · PORT HERCULE</small></a>
+        <address style="margin-top:20px">Le Monator<br>25 Rue Grimaldi<br>98000 Monaco</address>
+        <p style="margin-top:12px"><a href="mailto:contact@superyachtsmonaco.com">contact@superyachtsmonaco.com</a></p>
+      </div>
+      <div><h4>Yachts</h4><ul><li><a href="yachts-for-sale.html">Yachts for Sale</a></li><li><a href="yachts-for-charter.html">Yachts for Charter</a></li><li><a href="buy-a-yacht.html">Buy a Yacht</a></li><li><a href="sell-a-yacht.html">Sell a Yacht</a></li><li><a href="new-builds.html">New Builds</a></li><li><a href="off-market.html">Off-Market Shortlist</a></li></ul></div>
+      <div><h4>The Brokerage</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li><li><a href="charter-enquiry.html">Charter Enquiry</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms & Conditions</a></li><li><a href="cookie-policy.html">Cookie Policy</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SuperYachtsMonaco — Boutique brokerage, Monaco</span>
+      <span>Photography: Unsplash (licensed) · Fleet shown is a labelled demo</span>
+    </div>
+  </div>
+</footer>
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent">
+  <p><strong style="font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass)">Cookies</strong></p>
+  <p>This site loads no analytics and no advertising trackers. It uses one strictly necessary cookie preference (your consent choice) and Google Fonts. See our <a href="cookie-policy.html" style="color:var(--brass)">Cookie Policy</a>.</p>
+  <div class="row">
+    <button class="btn btn-brass" data-cookie="accepted">Accept</button>
+    <button class="btn btn-outline" data-cookie="declined">Decline</button>
+  </div>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
